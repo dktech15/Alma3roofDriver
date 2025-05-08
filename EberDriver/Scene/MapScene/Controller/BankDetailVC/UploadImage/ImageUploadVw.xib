@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto_Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+        <array key="calibri.ttf">
+            <string>Calibri</string>
+        </array>
+        <array key="calibrib.ttf">
+            <string>Calibri-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="ImageUploadVw" customClass="ImageUploadVw" customModule="EberDriver" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CYr-6z-q5x" userLabel="vwBg">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XqF-EG-8dg" userLabel="vwContent">
+                    <rect key="frame" x="10" y="246.5" width="394" height="403.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Upload picture of your document" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ub-rm-pJZ" userLabel="lblDocumentName">
+                            <rect key="frame" x="20" y="20" width="354" height="23.5"/>
+                            <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="20"/>
+                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="asset-add-bank-detail-image" translatesAutoresizingMaskIntoConstraints="NO" id="I9O-db-b43" userLabel="iVPhoto">
+                            <rect key="frame" x="122" y="83.5" width="150" height="150"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="I9O-db-b43" secondAttribute="height" multiplier="1:1" id="BXS-Y2-bBd"/>
+                                <constraint firstAttribute="height" constant="150" id="sL7-gH-zhJ"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qGu-8v-Ywf" userLabel="btnChoose">
+                            <rect key="frame" x="122" y="83.5" width="150" height="150"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="Calibri" family="Calibri" pointSize="16"/>
+                            <state key="normal">
+                                <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="btnChooseTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="Hvj-jS-74U"/>
+                            </connections>
+                        </button>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="MMq-Gt-Axn">
+                            <rect key="frame" x="59" y="273.5" width="276" height="110"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DgY-Ll-WkS" userLabel="btnSubmit">
+                                    <rect key="frame" x="0.0" y="0.0" width="276" height="50"/>
+                                    <color key="backgroundColor" red="0.058823529409999999" green="0.31764705879999999" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="fontDescription" name="Calibri-Bold" family="Calibri" pointSize="18"/>
+                                    <state key="normal" title="Submit">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnSubmitTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="hyJ-WI-562"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="foZ-An-bPr" userLabel="btnClose">
+                                    <rect key="frame" x="0.0" y="60" width="276" height="50"/>
+                                    <inset key="imageEdgeInsets" minX="2.5" minY="2.5" maxX="2.5" maxY="2.5"/>
+                                    <state key="normal" title="Cancel">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnCloseTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="HVs-GB-MgB"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="110" id="X5b-rP-sg4"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="7ub-rm-pJZ" firstAttribute="top" secondItem="XqF-EG-8dg" secondAttribute="top" constant="20" id="5Fp-Nf-mcJ"/>
+                        <constraint firstItem="MMq-Gt-Axn" firstAttribute="top" secondItem="I9O-db-b43" secondAttribute="bottom" constant="40" id="7rI-cL-rQL"/>
+                        <constraint firstAttribute="height" priority="250" constant="460" id="9Bo-Pq-JcL" userLabel="hVwContent"/>
+                        <constraint firstItem="MMq-Gt-Axn" firstAttribute="centerX" secondItem="XqF-EG-8dg" secondAttribute="centerX" id="DMu-Hh-CdH"/>
+                        <constraint firstItem="qGu-8v-Ywf" firstAttribute="centerX" secondItem="I9O-db-b43" secondAttribute="centerX" id="OtV-Do-nRg"/>
+                        <constraint firstItem="qGu-8v-Ywf" firstAttribute="width" secondItem="I9O-db-b43" secondAttribute="width" id="VLI-lD-tQj"/>
+                        <constraint firstAttribute="bottom" secondItem="MMq-Gt-Axn" secondAttribute="bottom" constant="20" id="Y1l-dy-feL"/>
+                        <constraint firstItem="qGu-8v-Ywf" firstAttribute="centerY" secondItem="I9O-db-b43" secondAttribute="centerY" id="ZWC-0Z-7Vl"/>
+                        <constraint firstItem="qGu-8v-Ywf" firstAttribute="height" secondItem="I9O-db-b43" secondAttribute="height" id="iUH-Kp-6Lg"/>
+                        <constraint firstItem="I9O-db-b43" firstAttribute="centerX" secondItem="XqF-EG-8dg" secondAttribute="centerX" id="sbB-qu-xDu"/>
+                        <constraint firstItem="I9O-db-b43" firstAttribute="top" secondItem="7ub-rm-pJZ" secondAttribute="bottom" constant="40" id="sbi-W9-U9L"/>
+                        <constraint firstAttribute="trailing" secondItem="7ub-rm-pJZ" secondAttribute="trailing" constant="20" id="uw1-HJ-Ggw"/>
+                        <constraint firstItem="MMq-Gt-Axn" firstAttribute="width" secondItem="XqF-EG-8dg" secondAttribute="width" multiplier="0.7" id="w00-aS-JyB"/>
+                        <constraint firstItem="7ub-rm-pJZ" firstAttribute="leading" secondItem="XqF-EG-8dg" secondAttribute="leading" constant="20" id="xc1-0H-7TR"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="XqF-EG-8dg" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="AUe-kg-4zq"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="CYr-6z-q5x" secondAttribute="trailing" id="ImR-GW-1dp"/>
+                <constraint firstItem="CYr-6z-q5x" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="K52-7y-au4"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="XqF-EG-8dg" secondAttribute="trailing" constant="10" id="NbL-u2-3km"/>
+                <constraint firstItem="XqF-EG-8dg" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Pua-Di-O2r" userLabel="cyVwContent"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="CYr-6z-q5x" secondAttribute="bottom" id="TBM-ae-xLv"/>
+                <constraint firstItem="CYr-6z-q5x" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="kjP-yl-81x"/>
+            </constraints>
+            <connections>
+                <outlet property="btnChoose" destination="qGu-8v-Ywf" id="dPr-Mw-z2S"/>
+                <outlet property="btnClose" destination="foZ-An-bPr" id="tBy-7A-0HB"/>
+                <outlet property="btnSubmit" destination="DgY-Ll-WkS" id="Pi2-ay-AEe"/>
+                <outlet property="cyVwContent" destination="Pua-Di-O2r" id="0na-on-u2H"/>
+                <outlet property="hVwContent" destination="9Bo-Pq-JcL" id="5Yu-Xb-9JQ"/>
+                <outlet property="iVPhoto" destination="I9O-db-b43" id="jve-Pw-G4n"/>
+                <outlet property="lblDocumentName" destination="7ub-rm-pJZ" id="Jn8-h8-m0M"/>
+                <outlet property="vwBg" destination="CYr-6z-q5x" id="u6V-45-8oz"/>
+                <outlet property="vwContent" destination="XqF-EG-8dg" id="7w4-59-gWd"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="153.34821428571428"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="asset-add-bank-detail-image" width="344" height="344"/>
+    </resources>
+</document>

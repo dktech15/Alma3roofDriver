@@ -1,0 +1,711 @@
+"PUSH_MESSAGE_207" ="You have been approved by admin for this application";
+"PUSH_MESSAGE_208" ="You have been declined by admin for this application";
+"PUSH_MESSAGE_201" ="You got new trip request.";
+"PUSH_MESSAGE_205" ="Your current trip has been cancelled.";
+"PUSH_MESSAGE_210" ="Destination address has been updated by user.";
+"PUSH_MESSAGE_211" ="Payment Mode is set to cash.";
+"PUSH_MESSAGE_212" ="Payment Mode is set to card.";
+"PUSH_MESSAGE_213" ="Sorry, no driver is available near you at the moment.";
+"PUSH_MESSAGE_230" ="Logged in on another device.";
+"PUSH_MESSAGE_231" ="Corporate request";
+"PUSH_MESSAGE_241" ="Your trip has ended.";
+"PUSH_MESSAGE_242" ="You are now offline, to receive new trip requests please go online.";
+"PUSH_MESSAGE_232" ="Trip accepted by another driver.";
+"PUSH_MESSAGE_233" ="The payment failed and the customers will get an option to change the trip to cash";
+"PUSH_MESSAGE_234" ="The payment failed and the customers payment will be settled from the wallet";
+"PUSH_MESSAGE_218"="Your trip cancelled by admin.";
+"PUSH_MESSAGE_235" = "You got new trip request near to your current trip destination.";
+
+"VALIDATION_MSG_PLEASE_UPLOAD_PICTURE" ="Upload document image";
+
+"TXT_USER" ="User";
+
+//MARK: - Common Texts
+"TXT_APPLICATION_NAME" ="ALMA3ROOF DRIVER";
+"TXT_CAPTION" = "Alma3roof Captain";
+"TXT_DEFAULT" ="Default";
+
+"TXT_YES" ="Yes";
+"TXT_NO" ="No";
+"TXT_CANCEL" ="Cancel";
+"TXT_OK" ="Ok";
+"TXT_APPLY"="Apply";
+"TXT_RESET"="Reset";
+"TXT_DELETE" ="Delete";
+"TXT_SAVE" ="Save";
+"TXT_EDIT" ="Edit";
+"TXT_UPDATE"="Update";
+"TXT_SELECT" ="Select";
+"TXT_SKIP" ="Skip";
+"TXT_EXIT" ="Exit";
+"TXT_DONE"="Done";
+"TXT_SEND"="Send";
+
+"TXT_RETRY"="Retry";
+"TXT_SUBMIT"="Submit";
+"TXT_ERROR"="Error";
+"TXT_CONFIRM" ="Confirm";
+"TXT_ATTENTION"="Attention!";
+"TXT_ADMIN_ALERT" ="Admin alert!";
+"TXT_VERIFY_ACCOUNT" ="Verify account";
+"TXT_LOGOUT" ="Logout";
+"MSG_LOGOUT" ="Are you sure?";
+
+"MSG_SERVER_ERROR"="Problem in downloading data from server please restart your app or try again.";
+"MSG_UPDATE_APP"="App update available with functionality and performance improvement.";
+"MSG_MIN_WALLET_REQUIRED" ="* For receive cash trip wallet amount should be";
+"MSG_VISITOR_TYPE" ="You are a visitor for this city.\n Do you want to tie-up with visitor type?";
+"TXT_VISITOR_TYPE" ="Visitor type";
+"ALERT_TITLE_VISITOR_TYPE" ="Visitor type";
+"ALERT_MSG_NO_SERVICE" ="Sorry no service type available in this city.";
+
+//Camera Dialog
+"TXT_GALLERY" ="Gallery";
+"TXT_CAMERA" ="Camera";
+
+"TXT_SELECT_IMAGE" ="Select image";
+
+"MSG_NO_CITY_FOUND_IN_SELECTED_COUNTRY" ="No city found in selected country";
+
+//Home Screen
+"TXT_APP_VERSION" ="App Version";
+"TXT_ALL_COPY_RIGHT_RESERVED" ="All Copyrights Reserved";
+"TXT_CHANGE_LANGUAGE" ="Change language";
+"TXT_LOGIN" ="Login";
+"TXT_REGISTER" ="Register";
+
+//Login Screen
+"TXT_LOGIN_WITH" ="Login with";
+"TXT_OR" ="---- OR ----";
+"TXT_PASSWORD" ="Password";
+"TXT_EMAIL" ="Email";
+"TXT_FORGOT_PASSWORD" ="Forgot password ?";
+"TXT_DON'T_HAVE_ACCOUNT" ="Don't have an account yet ?";
+
+//Register Screen
+"TXT_ALREADY_HAVE_ACCOUNT" ="Already have an account?";
+"TXT_REGISTER_WITH" ="Register with";
+"TXT_PHONE_NO" ="Phone no.";
+"TXT_FIRST_NAME" ="First name";
+"TXT_LAST_NAME" ="Last name";
+"TXT_ADDRESS" ="Address";
+"TXT_CONDITIONING_TEXT" ="By continuing, I confirm that I have read and agree to the";
+"TXT_PRIVACY_POLICY" ="Privacy Policy";
+"TXT_TERMS_CONDITIONS"="Terms & Conditions";
+"TXT_AND" ="and";
+"TXT_SELECT_COUNTRY" ="Select country";
+"TXT_SELECT_CITY" ="Select city";
+"TXT_SEARCH_CITY" ="Search city";
+"TXT_SEARCH_COUNTRY" ="Search Country";
+"TXT_NEW_PASSWORD" ="New Password";
+"TXT_CHANGE" ="Change";
+
+//MARK:- MenuVC
+"TXT_PROFILE" ="Profile";
+"TXT_PAYMENTS" ="Payment";
+"TXT_MY_BOOKINGS" ="My bookings";
+"TXT_HISTORY" ="History";
+"TXT_NOTIFICATION" ="Notification";
+"TXT_REFERRAL" ="Referral";
+"TXT_CONTACT_US" ="Contact us";
+"TXT_DOCUMENTS" ="Documents";
+"TXT_EARNING" ="Earnings";
+"TXT_BANK_DETAIL" ="Bank detail";
+"TXT_SETTINGS" ="Settings";
+"TXT_CONTACT_US_MSG" = "Thank you for choosing ALMAعROOF Driver";
+
+//MARK:- Document VC
+"TXT_MANDATORY_FIELDS" ="* mandatory document";
+"TXT_ENTER_ID_NUMBER" ="Enter id number";
+"TXT_ENTER_EXP_DATE" ="Select expiry date";
+"TXT_ID_NUMBER" ="ID number :";
+"TXT_EXP_DATE" ="Exp. date :";
+
+"MSG_PLEASE_ENTER_VALID_PASSWORD" ="Password length should be greater than 6 characters.";
+"TXT_SELECT_DATE" ="Select date";
+"TXT_SHARE" ="Share";
+"MSG_SHARE_ETA"="I will reach at";
+
+"TXT_GO_ONLINE" ="Go online";
+"TXT_GO_ONLINE_MESSAGE" ="Go online to receive\ntrip request";
+"TXT_GO_OFFLINE" ="Go offline";
+"TXT_ADD_NEW_VEHICLE" ="Add New Vehicle";
+"TXT_EDIT_VEHICLE" ="Edit vehicle";
+"TXT_ADD_VEHICLE" ="Add vehicle";
+"TXT_BASE_PRICE" ="Base price";
+"TXT_DISTANCE_PRICE" ="Distance price";
+"TXT_TIME_PRICE" ="Time price";
+
+"TXT_YOUR_VEHICLE" ="Your vehicle";
+
+//MARK:- Vehicle VC
+"TXT_VEHICLE" = "Vehicle";
+"TXT_VEHICLE_MODEL" ="Model";
+"TXT_VEHICLE_NAME" ="Name";
+"TXT_VEHICLE_COLOR" ="Color";
+"TXT_VEHICLE_REGISTER_YEAR" ="Year";
+"TXT_VEHICLE_PLATE_NUMBER" ="Plate no.";
+
+"TXT_UPLOAD_ALL_DOCUMENT" ="Upload documents";
+
+"TXT_ACCESSIBILITY" ="Providing accessibility";
+"TXT_HOTSPOT" ="Hotspot";
+"TXT_BABY_SEAT" ="Baby seat";
+"TXT_HANDICAP" ="Handicap";
+"TXT_SELECT_DOB_DATE" ="Select D.O.B";
+"TXT_DEFAULT" ="Default";
+"TXT_RIDE_NOW" ="Ride Now";
+
+//MARK:- BankDetail Screen
+"TXT_ACCOUNT_NUMBER"="Account number";
+"TXT_ACCOUNT_HOLDER_NAME" ="Account holder name";
+"TXT_ROUTING_NUMBER" ="Routing number";
+"TXT_PERSONAL_ID_NUMBER" ="Personal id number";
+"TXT_DOB" ="D.O.B";
+
+//MARK:- History VC
+"TXT_SELECT_FROM_DATE" ="Select from date";
+"TXT_SELECT_TO_DATE" ="Please select to date.";
+"TXT_FROM" ="From";
+"TXT_TO" ="To";
+"TXT_YESTERDAY" ="Yesterday";
+"TXT_TODAY" ="Today";
+"TXT_WARNING" ="Error";
+"MSG_INVALID_DATE_WARNING" ="Please select first from date.";
+"TXT_INVOICE" ="Invoice";
+"TXT_CANCELLED_TRIP" ="Cancelled trip";
+"TXT_TRIP_ID" ="Trip Id.";
+
+//MARK:- Invoice VC
+"TXT_FIXED_FARE_TRIP" ="Fixed fare trip";
+"TXT_AIRPORT_TRIP" ="Airport trip";
+"TXT_ZONE_TRIP" ="Zone trip";
+"TXT_CITY_TRIP" ="City trip";
+
+"TXT_FIXED_RATE" ="Fixed rate";
+"TXT_TIP" ="Tip";
+"TXT_TOLL" ="Toll amount";
+
+"TXT_WAIT_TIME_COST" ="Waiting time";
+"TXT_USER_CITY_TAX" ="User city tax";
+"TXT_PROVIDER_CITY_TAX" ="Driver city tax";
+"TXT_PROVIDER_MISCELLANEOUS_TAX" ="Driver miscellaneous fee";
+"TXT_USER_MISCELLANEOUS_TAX" ="User miscellaneous fee";
+
+"TXT_PAID_BY_CASH" ="Paid by cash";
+"TXT_PAID_BY_CARD" ="Paid by card";
+"TXT_PAID_BY_WALLET" ="Paid by wallet";
+"TXT_PAID_BY_APPLE_PAY" ="Paid by apple pay";
+"TXT_REMAINING_TO_PAY" ="Remaining";
+"TXT_TOTAL" ="Total";
+"TXT_DISCOUNT" ="Discount";
+"TXT_PROMO_BONUS" ="Promo Bonus";
+"TXT_REFERRAL_BONUS" ="Referral bonus";
+"TXT_TAX" ="Tax:";
+"TXT_SURGE_PRICE" ="Surge price";
+"TXT_WALLET_AMOUNT" ="Wallet amount";
+"TXT_MIN_FARE" ="Min Fare:";
+"TXT_APPLIED" ="Applied";
+
+"TXT_COMMENT_PLACEHOLDER" ="Write about your experience. We are always happy to hear from you.";
+"TXT_PAIRED_SUCCESSFULLY" ="Paired successfully";
+"TXT_SERVICE_PRICE" ="Service price";
+
+"TXT_PAYMENT_FAILED" ="Payment Failed";
+"MSG_PAYMENT_FAILED" ="Your card payment was failed, so please select other card.";
+"TXT_PAY_AGAIN" ="Pay Again";
+
+//MARK:- Payments
+"TXT_WALLET_HISTORY" ="Wallet history";
+"TXT_ADD_CARD" ="Add New Card";
+"TXT_CREDIT_CARD" ="Credit card";
+
+"TXT_PAYMENT_MESSAGE" ="Drive with eber and collect credits that you can redeem on your next trip.";
+"TXT_NO_CREDIT_CARD" ="No card details to be displayed.";
+
+"TXT_CARDS" ="Cards";
+
+"TXT_CVV" ="CVV";
+"TXT_MM_YY" ="Expiration date";
+"TXT_CREDIT_CARD_NUMBER" ="Card number";
+"TXT_CARD_HOLDER_NAME" ="Card holder name";
+"TXT_CARD_MSG" ="Only VISA and Mastercard are accepted";
+"TXT_USER_WALLET" ="Use wallet";
+"TXT_ADD" ="Add";
+
+"TXT_DELETE_CARD"="Delete a card";
+"MSG_ARE_YOU_SURE"="Are you sure?";
+
+//Wallet Screen
+"TXT_ID" ="ID";
+"TXT_TOTAL_WALLET_AMOUNT" ="Total wallet amount";
+"TXT_WALLET_HISTORY_DETAIL" ="Wallet history";
+
+"WALLET_STATUS_ADDED_BY_ADMIN" ="Added by admin";
+"WALLET_STATUS_ADDED_BY_CARD" ="Added by card";
+"WALLET_STATUS_ADDED_BY_REFERRAL" ="Added by referral";
+"WALLET_STATUS_ORDER_CHARGED" ="Amount used in trip";
+"WALLET_STATUS_ORDER_REFUND" ="Trip refunded";
+"WALLET_STATUS_ORDER_PROFIT" ="Trip profit";
+"WALLET_STATUS_ORDER_CANCELLATION_CHARGE" ="Trip cancellation charge";
+"WALLET_STATUS_WALLET_REQUEST_CHARGE" ="Wallet request charge";
+"WALLET_STATUS_AMOUNT_RECEIVED_BY_FRIEND" ="Amount received by friend";
+"WALLET_STATUS_AMOUNT_SEND_TO_FRIEND" ="Amount send to friend";
+
+"TXT_AMOUNT_DEDUCTED" ="Deducted amount";
+"TXT_AMOUNT_ADDED" ="Added amount";
+
+"TXT_SEND_MONEY" ="Send Money";
+
+//MARK:- Setting VC
+"TXT_REQUEST_ALERT" ="Request alert";
+"TXT_REQUEST_ALERT_MSG" ="Play sound when you receive a new request.";
+"TXT_PICKUP_ALERT" ="Pickup alert";
+"TXT_PICKUP_ALERT_MSG" ="Play sound when you are near to the pickuplocation.";
+"TXT_PUSH_NOTIFICATION" ="Push notification";
+"TXT_PUSH_NOTIFICATION_MSG" ="Sound play for push notifications.";
+"TXT_HEAT_MAP" ="Heat map";
+"TXT_HEAT_MAP_MSG" ="Show areas where new requests were created in the last hour.";
+"TXT_SELECT_LANGUAGE_YOU_CAN_SPEAK" ="Select languages you can speak";
+"TXT_LANGUAGE" ="Language";
+"TXT_APP_VERSION" ="App version";
+
+//MARK:- Trip VC
+"TXT_TRIP_NO" ="Trip no.";
+"TXT_CALL" ="Call";
+"TXT_TOTAL_TIME" ="Total time";
+"TXT_TOTAL_DISTANCE" ="Total distance";
+"TXT_ACCEPT" ="Accept";
+"TXT_REJECT" ="Reject";
+"TXT_ESTIMATE_TIME"="Est. time";
+"TXT_ESTIMATE_DISTANCE"="Est. distance";
+"TXT_PAYMENT_IN"="Payment in";
+"TXT_YOUR_SCHEDULE_TIME" ="Schedule pick-up time:";
+"TXT_CASH" ="Cash";
+"TXT_CARD" ="Card";
+
+"TXT_RENTAL_TRIP" ="Rental trip";
+
+"TXT_TRIP_STATUS_ACCEPTED" ="Accepted";
+"TXT_TRIP_STATUS_COMING" ="Tap When You Start";
+"TXT_TRIP_STATUS_ARRIVED" ="Tap When You Arrive";
+"TXT_TRIP_STATUS_STARTED" ="Swipe to Start Trip";
+"TXT_TRIP_STATUS_END" = "Double Tap To End Trip";
+"TXT_TRIP_STATUS_COMPLETED" ="Tap when you start";
+
+"TXT_COMING"="Tap When You Start";
+"TXT_ARRIVED"="Tap When You Arrive";
+"TXT_START_TRIP"="Tap When You Start Trip";
+"TXT_PICKUP_ADDRESS"="Pickup address";
+"TXT_DESTINATION_ADDRESS"="Destination address";
+"TXT_WAIT_TIME_START"="Total wait time";
+"TXT_DEST_ADDRESS_NOT_AVAILABLE"="Destination address is not available";
+"TXT_WAITING_FOR_TIP" ="Waiting for tip";
+"TXT_WAITING_TIME_START_AFTER" ="Waiting time start after";
+"TXT_TOTAL_WAITING_TIME" ="Waiting time";
+"TXT_RATE" ="Rate";
+
+"TXT_SOURCE_ADDRESS" ="Source address";
+"TXT_DESTINATION_ADDRESS" ="Destination address";
+
+//MARK: Earning
+"TXT_SELECT_WEEK" ="Select week";
+"TXT_SERVICE_EARNING"="Service earning";
+"TXT_OTHER_EARNING"="Other earning";
+"TXT_SERVICE_PRICE"="Service price";
+"TXT_TAX_PRICE"="Tax price";
+"TXT_ADMIN_PROFIT"="Admin profit";
+"TXT_PROVIDER_PROFIT"="Driver profit";
+"TXT_TOTAL_EARNING"="Total earnings";
+"TXT_PAID_ORDER_AMOUNT"="Paid order amount";
+"TXT_CASH_AMOUNT"="Cash amount";
+"TXT_PAY_TO_PROVIDER"="Pay to driver";
+"TXT_TIME_ONLINE"="Time online";
+"TXT_JOB_TIME"="Job time";
+"TXT_TOTAL_ORDER"="Total trips";
+"TXT_NOT_ANSWERED"="Not answered";
+"TXT_COMPLETED_ORDER"="Completed requests";
+"TXT_COMPLETED_RATIO"="Completed ratio";
+"TXT_ACCEPTED_ORDER"="Accepted";
+"TXT_ACCEPTED_RATIO"="Accepted ratio";
+"TXT_REJECTED_ORDER"="Rejected";
+"TXT_REJECTED_RATIO"="Rejected ratio";
+"TXT_CANCELLED_ORDER"="Cancelled";
+"TXT_CANCELLED_RATIO"="Cancelled ratio";
+
+"TXT_PROVIDER_TRANSACTIONS" ="Miscellaneous fees";
+"TXT_MISCELLANEOUS_PRICE" ="Toll amount";
+"TXT_TOLL_AMOUNT" ="Driver transactions";
+"TXT_TIP_AMOUNT" ="Tip amount";
+"TXT_PROVIDER_HAVE_CASH" ="Driver has cash";
+"TXT_DEDUCT_WALLET_AMOUNT" ="Deduct wallet amount";
+"TXT_ADDED_WALLET_AMOUNT" ="Added wallet amount";
+"TXT_RECEIVED_REQUEST" ="Received request";
+"TXT_PAID_IN_WALLET" ="Set in wallet";
+"TXT_AMOUNT_TRANSFERRED" ="Amount transferred";
+
+"TXT_ORDER"="Order";
+"TXT_PAYMENT_BY"="Pay by";
+"TXT_SERVICE_FEES"="Service fees";
+"TXT_PAID_ORDER"="Paid trip";
+"TXT_PROFIT"="Profit";
+
+"TXT_CASH_AMOUNT" ="Cash amount";
+"TXT_PAID_ORDER_AMOUNT" ="Paid order amount";
+"TXT_PAYMENT" ="Payment";
+"TXT_REDEEM" = "Redeem";
+"TXT_TRIP_EARNING"="Trip earnings";
+"TXT_STATISTIC" ="Statistics";
+
+"TXT_EARN"="Earn";
+"TXT_DAY"="Day";
+"TXT_WEEK"="Week";
+"TXT_MONTH"="Month";
+"TXT_WALLET" ="Wallet";
+
+"TXT_TRIP_ID"="Trip Id.";
+"TXT_SERVICE_FEES"="Service fees";
+
+"TXT_GOOGLE_MAP" ="Google Map";
+"TXT_WAZE_MAP" ="Waze Map";
+"TXT_REMAINING_SECONDS" ="s Remaining";
+"TXT_DISTANCE" ="Distance";
+"TXT_TIME" ="Time";
+"TXT_CANCEL_TRIP_REASON" ="Enter cancellation reason";
+"TXT_CANCEL_TRIP_REASON1" ="My driver and I couldn't connect.";
+"TXT_CANCEL_TRIP_REASON2" ="Wrong address or location shown.";
+"TXT_CANCEL_TRIP_REASON3" ="The eta was too long.";
+"TXT_CANCEL_TRIP" ="Cancel trip";
+"TXT_OTHER" ="Other";
+"TXT_FARE_ESTIMATE" ="Fare estimate";
+"TXT_CALL_MESSAGE" ="Please wait until call assign to you.";
+"PLACE_HOLDER_ENTER_MESSAGE" ="Enter message";
+"TXT_CHAT_WITH" ="Chat with";
+"TXT_CHAT" ="Chat";
+"TXT_READ" ="Read";
+
+//MARK:- OTP VC
+"TXT_OTP_MSG" ="Enter the 6-digit code send to you at ";
+"TXT_DID_YOU_ENTER_CORRECT_MOBILE_NUMBER" ="Did you enter correct detail?";
+"TXT_ENTER_EMAIL_OTP" ="Email otp";
+"TXT_RESEND_CODE" ="Resend code";
+"TXT_RESEND_CODE_IN" ="Resend Code in : ";
+"TXT_EDIT_MY_DETAIL" ="Edit My Detail";
+
+//MARK:- Validation Message
+"VALIDATION_MSG_INVALID_FIRST_NAME" ="Please enter a first name";
+"VALIDATION_MSG_INVALID_LAST_NAME" ="Please enter a last name.";
+
+"ADMIN_MSG_ADD_VEHICLE" ="Please add at least one vehicle for approval";
+"ADMIN_MSG_EDIT_VEHICLE_DOCUMENT" ="Vehicle document expired!\nPlease update vehicle document to receive trip.";
+"ADMIN_MSG_UPLOAD_VEHICLE_DOCUMENT" ="Vehicle document not uploaded!\nPlease upload vehicle document to receive trip.";
+"ADMIN_MSG_VEHICLE_PROCESSING" ="Vehicle Review!\nYour vehicle is waiting for review make sure all detail uploaded.";
+"ADMIN_MSG_PROVIDER_DECLINED" ="You are declined by admin";
+
+"VALIDATION_MSG_DEST_ADDRESS_NOT_AVAILABLE" ="Destination address is not available";
+"VALIDATION_MSG_GOOGLE_MAP_NOT_AVAILABLE" ="Google Maps app is not installed.";
+"VALIDATION_MSG_WAZE_MAP_NOT_AVAILABLE" ="Waze map is not available";
+"VALIDATION_MSG_INVALID_PHONE_NUMBER_CODE" ="Please Enter Country Code";
+"VALIDATION_MSG_INVALID_PHONE_NUMBER_BETWEEN" ="Enter phone number between %@ - %@";
+"VALIDATION_MSG_INVALID_PHONE_NUMBER" ="Please enter a valid mobile number.";
+
+"VALIDATION_MSG_INVALID_EMAIL" ="Please enter a valid email address.";
+"VALIDATION_MSG_INVALID_PASSWORD" ="Password length should be greater than %@ characters.";
+
+"VALIDATION_MSG_ENTER_PHONE_NUMBER" ="Please enter a mobile number.";
+"VALIDATION_MSG_ENTER_EMAIL" ="Please enter an email address.";
+"VALIDATION_MSG_ENTER_PASSWORD" ="Please enter a password.";
+
+"VALIDATION_MSG_INVALID_REFERRAL_CODE" ="Please enter valid referral code.";
+"VALIDATION_MSG_UNABLE_TO_CALL" ="Unable to call";
+"VALIDATION_MSG_UNABLE_TO_MAIL" ="Unable to mail";
+"TXT_PLEASE_SELECT_CARD_EXPIRY_DATE" ="Select expiry date";
+"VALIDATION_MSG_ENTER_VALID_CREDIT_CARD_NUMBER" ="Please enter a credit card number.";
+"VALIDATION_MSG_ENTER_VALID_CVV_NUMBER" ="Please enter a valid cvv code.";
+"VALIDATION_MSG_INVALID_CITY" ="Select city";
+"VALIDATION_MSG_INVALID_CARD" ="Your card is invalid";
+"VALIDATION_MSG_NO_CARD_SELECTED" ="No card selected";
+"VALIDATION_MSG_INVALID_AMOUNT" ="Your entered amount is invalid";
+"VALIDATION_MSG_INVALID_REASON" ="Please provide a valid reason.";
+"VALIDATION_MSG_INVALID_LOCATION" ="No card selected";
+"VALIDATION_MSG_ENTER_CARD_HOLDER_NAME_FIRST" ="Please enter card holder name.";
+"VALIDATION_MSG_NO_OTHER_PAYMENT_MODE_AVAILABLE" ="No other payment mode available in this city.";
+"VALIDATION_MSG_RATE_PROVIDER" ="Please give atleast one rate";
+"VALIDATION_MSG_HOME_ADDRESS_NOT_AVAILABLE" ="Home address is not available please add first.";
+"VALIDATION_MSG_WORK_ADDRESS_NOT_AVAILABLE" ="Work Address is not available Please Add First.";
+"VALIDATION_MSG_SELECT_DESTINATION_ADDRESS_FIRST" ="Please select destination address first to do fixed rate ride";
+"VALIDATION_MSG_PLEASE_SELECT_DATE_FIRST" ="Please select first from date.";
+"VALIDATION_MSG_PLEASE_ENTER_DOCUMENT_ID" ="Please enter document unique code.";
+"VALIDATION_MSG_PLEASE_ENTER_DOCUMENT_EXP_DATE" ="Please enter a valid document expiry date.";
+"VALIDATION_MSG_PLEASE_SELECT_DOCUMENT_IMAGE" ="Please select document image.";
+
+"VALIDATION_MSG_ADD_CARD_FIRST" ="Please add a credit card.";
+"VALIDATION_MSG_VALID_AMOUNT" ="Please enter a valid amount.";
+
+"VALIDATION_MSG_PLEASE_ENTER_DESTINATION_FIRST" ="Please select destination address first to share eta";
+"VALIDATION_MSG_ENTER_VALID_OTP" ="Enter valid otp";
+
+"VALIDATION_MSG_PLEASE_ENTER_VEHICLE_NAME" ="Please enter vehicle name";
+"VALIDATION_MSG_PLEASE_ENTER_VEHICLE_MODEL" ="Please enter vehicle model";
+"VALIDATION_MSG_PLEASE_ENTER_VEHICLE_PLATE_NUMBER" ="Please enter vehicle plate number";
+"VALIDATION_MSG_PLEASE_ENTER_VEHICLE_COLOR" ="Please enter vehicle color";
+"VALIDATION_MSG_PLEASE_ENTER_VEHICLE_YEAR" ="Please enter valid vehicle year";
+"VALIDATION_MSG_YOU_CAN'T_SELECT_VEHICLE" ="This vehicle has not been approved by admin";
+"VALIDATION_MSG_PLEASE_ENTER_ACCOUNT_NUMBER"="Please add valid account number";
+"VALIDATION_MSG_PLEASE_ENTER_ACCOUNT_HOLDER_NAME" ="Please add account holder name";
+"VALIDATION_MSG_PLEASE_ENTER_ROUTING_NUMBER" ="Please add valid routing number";
+"VALIDATION_MSG_PLEASE_ENTER_PERSONAL_ID_NUMBER" ="Please add valid personal id number";
+"VALIDATION_MSG_PLEASE_ENTER_DOB" ="Please add D.O.B.";
+
+"VALIDATION_MSG_INVALID_SOURCE_ADDRESS" ="Please enter source address";
+
+//MARK: - Error Codes
+"ERROR_CODE_401" ="This Email id is already registered.";
+"ERROR_CODE_412" ="Social unique id Required or Password should be Null.";
+"ERROR_CODE_413" ="You are not a registered user. Please register.";
+"ERROR_CODE_414" ="Please enter an old password.";
+"ERROR_CODE_415" ="No Trip found.";
+"ERROR_CODE_416" ="Mismatch driver id or trip id.";
+"ERROR_CODE_417" ="Cannot retrieve trip status.";
+"ERROR_CODE_418" ="Driver history not found.";
+"ERROR_CODE_419" ="Driver trip detail not found.";
+"ERROR_CODE_420" ="Your trip has not ended yet.";
+"ERROR_CODE_421" ="Service type not found.";
+"ERROR_CODE_425" ="Logout failed.";
+"ERROR_CODE_426" ="Cannot retrieve your details.";
+"ERROR_CODE_436" ="Driver trip details not found.";
+"ERROR_CODE_443" ="Your password is not a match with old password.";
+"ERROR_CODE_444" ="Your documents are not up-to-date.";
+"ERROR_CODE_448" ="Your password is incorrect. Please try again.";
+"ERROR_CODE_447" ="Your password is incorrect. Please try again.";
+"ERROR_CODE_453" ="No trip.";
+"ERROR_CODE_456" ="You are already registered with this mobile number.";
+"ERROR_CODE_457" ="Driver ID is invalid.";
+"ERROR_CODE_801" ="Email address is not registered.";
+"ERROR_CODE_802" ="Update device token failed.";
+"ERROR_CODE_803" ="Scheduled trip not found.";
+"ERROR_CODE_479" ="Driver details not found.";
+"ERROR_CODE_480" ="Driver documents not found.";
+"ERROR_CODE_486" ="Driver respond trip failed.";
+"ERROR_CODE_489" ="Driver status upload failed.";
+"ERROR_CODE_488" ="Driver profile upload failed.";
+"ERROR_CODE_492" ="Driver rating upload failed.";
+"ERROR_CODE_490" ="Driver location upload failed.";
+"ERROR_CODE_485" ="Pay payment failed.";
+"ERROR_CODE_451" ="Invalid token.";
+"ERROR_CODE_630" ="Please remove all Schedule trip first.";
+
+"ERROR_CODE_811" ="Language not found.";
+"ERROR_CODE_701" ="Add wallet amount failed.";
+"ERROR_CODE_702" ="Change wallet status failed.";
+"ERROR_CODE_1001" ="We do not operate in this country.";
+"ERROR_CODE_1002" ="We do not operate in this city.";
+"ERROR_CODE_808" ="Already registered with social account";
+"ERROR_CODE_437" ="Trip not found";
+"ERROR_CODE_91" ="Problem in adding strip document";
+"ERROR_CODE_92" ="Driver bank details have not been verified";
+"ERROR_CODE_93" ="Driver bank details added successfully";
+"ERROR_CODE_94" ="Driver bank details added successfully";
+"ERROR_CODE_95" ="Problem in deleting bank detail. Please re-try";
+"ERROR_CODE_96" ="Driver bank details deleted successfully";
+"ERROR_CODE_98" ="Your account details are not valid";
+"ERROR_CODE_402" ="Social unique id required or password should be Null";
+"ERROR_CODE_434" ="Please enter a valid password.";
+"ERROR_CODE_458" ="No city list found";
+"ERROR_CODE_482" ="Document not found";
+"ERROR_CODE_408" ="Your trip has been already cancelled.";
+"ERROR_CODE_464" ="Your last payment is pending please contact our admin.";
+"ERROR_CODE_449" ="Trip already accepted";
+
+"ERROR_CODE_442" ="Card not found.";
+"ERROR_CODE_441" ="Card not found.";
+"ERROR_CODE_603" ="Bank details not found";
+"ERROR_CODE_809" ="Wallet history not found.";
+"ERROR_CODE_805" ="Earnings not found.";
+"ERROR_CODE_991" ="Something went wrong";
+"ERROR_CODE_993" ="Parameter invalid";
+"ERROR_CODE_0" ="Something went wrong";
+"ERROR_CODE_995" ="Trip already running";
+
+//MARK: - HTTP ERROR CODE
+"HTTP_ERROR_CODE_404" ="URL not found. Please check your internet connection";
+"HTTP_ERROR_CODE_502" ="Bad gateway";
+"HTTP_ERROR_CODE_504" ="Gateway timeout";
+"HTTP_ERROR_CODE_503" ="Service unavailable";
+"HTTP_ERROR_CODE_500" ="Internal server error";
+"HTTP_ERROR_CODE_408" ="Request timeout";
+"HTTP_ERROR_CODE_413" ="Request entity to large";
+"HTTP_ERROR_CODE_521" ="Unable to making TCP connection";
+"HTTP_ERROR_CODE_0" ="";
+
+//MARK: - Message Codes
+"MSG_NO_EARNING_FOR_FUTURE_DATE" ="You cannot see future date earning";
+"TXT_VEHICLE_DOCUMENT_NOT_UPLOADED" ="Documents not uploaded.";
+"TXT_VEHICLE_DOCUMENT_EXPIRE" ="Documents expired.";
+"TXT_COMMENTS" ="Comment";
+
+//MARK String Added 23/02/2019
+"TXT_CURRENT_PASSWORD" ="Current password";
+"TXT_INTERNET"="Internet";
+"TXT_LOCATION_SERVICE"="Location service";
+"MSG_INTERNET_ENABLE"="Your internet seems to be disabled, Please enable it.";
+"ALERT_MSG_LOCATION_SERVICE_NOT_AVAILABLE"="1. Go to Settings > Privacy > Location Services. \n 2. Make sure that location services is on";
+"TXT_MENU" ="Menu";
+
+"TXT_EXTRA_DISTANCE_CHARGE" ="Extra distance charge";
+"TXT_EXTRA_TIME_CHARGE" ="Extra time charge";
+"TXT_PACKAGES" ="Package";
+
+"TXT_TOTAL_TOLL" ="Total tolls";
+"TXT_TOLL_AMOUNT" ="Toll amount";
+"VALIDATION_MSG_ENTER_VALID_EXPIRY_DATE" ="Select valid expiry date.";
+"VALIDATION_MSG_ENTER_FIRST_NAME" ="Enter first name";
+"VALIDATION_MSG_ENTER_LAST_NAME" ="Enter last name";
+"TXT_EMPTY_HISTORY_MSG" ="No history to be displayed.";
+"TXT_EMPTY_HISTORY" ="History";
+"MSG_CODE_77" ="Email sent successfully.";
+"ERROR_CODE_899" ="User not approved by admin.";
+
+"TXT_STRIPE_KEY_ERROR" ="Stripe key not received from server";
+"TXT_CLOSE" ="Close";
+
+"MSG_SAVE_DELIVERY_TIME" ="You already selected slot Do you want to save it ?";
+"MSG_ENTER_ADDRESS_FIRST" ="Please enter Address";
+
+//MARK:- Share Referral
+"TXT_SHARE_REFERRAL_CODE" ="Share referral code";
+"TXT_SHARE_REFERRAL_MSG" ="Share your referral code with friends and get extra referral credits.";
+"TXT_YOUR_REFERRAL_CODE" ="Your referral code";
+"TXT_YOUR_REFERRAL_CREDIT" ="Your referral credits";
+"MSG_SHARE_REFERRAL" ="**** use my referral code :";
+
+//MARK:- Referral VC
+"TXT_ENTER_REFERRAL_CODE" ="Enter referral code";
+"TXT_REFERRAL_ERROR_MSG" = "";
+"TXT_REFERRAL_MSG" ="You can add referral code provided by your friend here, to get free credits. If you do not have one or don't want to insert then just click on Skip button below.";
+"ERROR_CODE_474" ="User detail not found.";
+"ERROR_CODE_461" ="Invalid referral code.";
+"ERROR_CODE_898" ="Referral code expired";
+
+"TXT_POSTAL_CODE" ="Postal code";
+"TXT_STATE_CODE" ="State code";
+"TXT_PERSONAL_ID_NUMBER" ="Personal id number";
+"TXT_GENDER_MALE" ="Male";
+"TXT_GENDER_FEMALE" ="Female";
+"VALIDATION_MSG_PLEASE_ENTER_STATE_CODE"="Please enter valid state code";
+"VALIDATION_MSG_PLEASE_ENTER_POSTAL_CODE"="Please enter valid postal code";
+"VALIDATION_MSG_PLEASE_ENTER_SELECT_GENDER"="Select Gender";
+"VALIDATION_MSG_PLEASE_ENTER_PERSONAL_ID_NUMBER" ="Please add valid personal id number";
+"VALIDATION_MSG_PLEASE_ENTER_ADDRESS" ="Please enter Address";
+"BANK_DETAIL_IMAGE_DOC_1" ="Upload Photo Id - Front";
+"BANK_DETAIL_IMAGE_DOC_2" ="Upload Photo Id - Back";
+"BANK_DETAIL_IMAGE_DOC_3" ="Upload Additional Document";
+"DOCUMENT_UPLOADED"="Upload";
+"DOCUMENT_VIEW"="View";
+"DOCUMENT_BTN_SAVE" ="Save";
+"DOCUMENT_UPLOAD_PICTURE" ="Upload picture of your document";
+"DOCUMENT_BTN_CHOOSE_PICTURE" ="Choose Picture";
+
+//6 april 2020
+"MSG_CODE_91" = "Wallet amount added successfully";
+"TXT_APPLE_PAY" ="Apple Pay";
+"MSG_PLEASE_AGREE_TERMS_CONDITON"="I agree to the terms and conditions";
+"MSG_CODE_19" ="Your profile has been updated successfully.";
+"TXT_FEEDBACK" ="Feedback";
+"MSG_PLEASE_SELECT_PAYMENT_MODE" ="Please select payment method";
+"MSG_PLEASE_SELECT_REGISTRATION_YEAR" ="Select registration year";
+"Gender" ="Gender";
+
+"PLEASE_ENTER_PIN" ="Please enter Pin";
+"EG_1234" ="Eg.1234";
+"ENTER_PIN" ="Enter Pin";
+"PLEASE_ENTER_OTP" ="Please enter OTP";
+"ENTER_OTP" ="Enter OTP";
+"EG_123456" ="Eg.123456";
+"PLEASE_ENTER_PHONE_NO" ="Please enter Phone no.";
+"ENTER_PHONE_NUMBER" ="Enter Phone Number";
+"MINIMUM_10_DIGITS" ="Minimum 10 digits (Eg.1234567890)";
+"PLEASE_ENTER_BIRTHDATE" ="Please enter Birthdate";
+"ENTER_BIRTHDATE" ="Enter Birthdate";
+"EG_DD-MM-YYYY" ="Eg.dd-mm-yyyy";
+
+"TXT_BANK_CODE" ="Bank code";
+"VALIDATION_MSG_PLEASE_ENTER_BANK_CODE" ="Please add valid bank code";
+
+//23 Nov 2021 - New Strings
+"TXT_CANCELLED_TRIP_BY_USER" ="Cancelled by user";
+"TXT_CANCELLED_TRIP_BY_DRIVER" ="Cancelled by driver";
+"TXT_CANCELLED_TRIP_BY_ADMIN" ="Cancelled by admin";
+"ADMIN_MSG_PROVIDER_DOCUMENT_EXPIRE" ="Your document expired!\nPlease update your document to receive trip.";
+"TXT_EDIT_DOCUMENT" ="Edit Document";
+"ERROR_CODE_1100" = "Call service not available at the moment";
+
+//4 Jan 2022 - Validation Cases Strings
+"msg_enter_valid_email_min_max_length" = "Please enter an email address between %@-%@ characters";
+"msg_enter_valid_password_min_max_length" = "Please enter a password between %@-%@ characters";
+"msg_enter_valid_phone_number" = "Please enter a valid mobile number.";
+
+"MSG_CODE_28" ="Your trip has been completed successfully.";
+
+"txt_unapprove_user" = "Your account is unapproved or deleted. Please contact admin";
+"txt_are_you_sure_account_delete" = "Are you sure?\n\nDo you want to delete your account?";
+"txt_delete_account" = "Delete Account";
+
+"TXT_GOING_HOME" = "Going to Home";
+"TXT_DOING_REGULAR" = "Doing Regular Ride";
+"TXT_OR_1" = "or";
+"TXT_GOING_HOME_MSG" = "Contact admin to change address.";
+
+"txt_move_to_trip" = "Move Trip";
+"txt_sharing_ride_details" = "Sharing Ride Details";
+
+"txt_set_home_address" = "Set Home Address";
+"ERROR_CODE_1101" = "Please enter valid confirmation code";
+"txt_enter_confirmation_code" = "Enter confirmation code";
+"txt_confirmation_code" = "Confirmation code";
+
+"txt_bidding_price" = "Bidding Price : ****";
+"txt_bidding" = "Bidding";
+"txt_call" = "Call";
+
+"txt_enter_bid_price" = "Enter bid price";
+"txt_enter_bidding_price" = "Please enter bid price";
+"txt_biding_trips" = "Bidding Trips";
+
+"txt_you_can_not_open_while_you_asked_bid_trip" = "You cannot open it while you have asked bid requests";
+"txt_bidding_request_is_pending" = "Your bidding trip request is pending";
+ "txt_bidding_request_asked" =  "You cannot go offline while \n you have asked bid requests";
+"TXT_ACCEPT_BID" ="Accept Bid";
+"txt_rate_driver" = "Rate User";
+"ERROR_CODE_1003" ="We are not doing business in this area.";
+"txt_please_enter_valid_amount" = "Please enter valid amount";
+"txt_swipe_to_end_trip" = "Swipe To End Trip";
+"TXT_REDEEM_POINT" = "Redeem Point";
+"TXT_TOTAL_REDEEM_POINTS" = "Total Redeem Points";
+"TXT_ENTER_POINTS" = "Redeem Points";
+"TXT_REDEEM" = "Redeem";
+"VALIDATION_MSG_VALID_AMOUNT" = "Please enter valid points.";
+"VALIDATION_MSG_INSUFFICIENT_BALANCE" = "Insufficient Redeem Points.";
+"VALIDATION_MSG_POINT_LIMIT" = "Please Enter at Least %@ Points for Redeem.";
+"MSG_POINT_TO_VALUE" = "%@ Points Are Equal To %@ %@";
+"TXT_POINTS" = "Points";
+"TXT_TOTAL_REDEEM_POINTS" = "Total Redeem Points:";
+"MSG_REDEEM_DATA_NOT_FOUND" = "Redeem history not found.";
+"txt_phone" = "Phone";
+"txt_login_with_otp" = "Login with OTP";
+"txt_select_country_phone_code" ="Please Select Country Phone Code";
+"ERROR_CODE_1111" = "Invalid OTP. Please check and try again.";
+"txt_max_bidding_price" = "Maximum bidding price should be ****";
+"ERROR_CODE_1112" = "Invalid SMS OTP. Please check and try again..";
+"ERROR_CODE_1113" = "Invalid Mail OTP. Please check and try again..";
+"txt_are_you_sure_you_want_to_go_offline" = "Are you sure you want to go offline?";
+"txt_pickup_vehicle_alert" = "Please pick a vehicle from the nearest hub.";
+"txt_pickup_vehicle" = "Pick Vehicle";
+"MSG_CODE_600" ="Vehicle picked successfully.";
+"MSG_CODE_601" ="Vehicle dropped successfully.";
+"ERROR_CODE_625" = "Outside HUB area.";
+"ERROR_CODE_626" = "No vehicle available in HUB.";
+"txt_pick_up" = "Pickup";
+"txt_drop_off" = "Drop Off";
+"txt_hub" = "Hub";
+"txt_no_hub_to_display" = "No hub to be displayed";

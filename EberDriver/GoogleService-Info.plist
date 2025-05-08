@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>21449625851-d9dqrmg07pbi0qlaknek1n8m6eg5qjsl.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.21449625851-d9dqrmg07pbi0qlaknek1n8m6eg5qjsl</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>21449625851-00948kt7fn7nm011oailmd2j5ko8h3q3.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAlpHJlDPSC1tnxwvqbdtJf8DAVv0NZ1ag</string>
+	<key>GCM_SENDER_ID</key>
+	<string>21449625851</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.alma3roof.driver</string>
+	<key>PROJECT_ID</key>
+	<string>alma3roof</string>
+	<key>STORAGE_BUCKET</key>
+	<string>alma3roof.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:21449625851:ios:3c3a2d4d72d4469218a05e</string>
+	<key>DATABASE_URL</key>
+	<string>https://alma3roof-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

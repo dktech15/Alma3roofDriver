@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" creator="mapstogpx.com" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd">
+    <metadata>
+        <link href="http://www.mapstogpx.com">
+            <text>Sverrir Sigmundarson</text>
+        </link>
+        <!--desc>Map data copyright 2019 Google</desc-->
+        <!--copyright author="Google Inc">
+         <year>2019</year>
+         <license>https://developers.google.com/maps/terms</license>
+         </copyright-->
+        <!--url>https://www.google.com/maps/dir/Kotecha+Cir,+Jala+Ram+Nagar,+Rajkot,+Gujarat+360001/Bhaktinagar+Circle,+Lakshmiwadi,+Bhakti+Nagar,+Rajkot,+Gujarat/@22.2871948,70.7860402,16z/am=t/data=!4m14!4m13!1m5!1m1!1s0x3959ca2517674ccd:0xe5cc1a4d2a381f43!2m2!1d70.7785845!2d22.2903413!1m5!1m1!1s0x3959ca72cccb2aa1:0x7378b9c1f2d46f4f!2m2!1d70.8020656!2d22.2802114!3e0?shorturl=1&hl=en</url-->
+        <time>2019-09-09T11:39:26Z</time>
+    </metadata>
+    <wpt lat="22.2903413" lon="70.7785845">
+        <name>WP001</name>
+    </wpt>
+    <wpt lat="22.290517539122" lon="70.77868169822">
+        <name>WP002</name>
+    </wpt>
+    <wpt lat="22.2906684" lon="70.7787649">
+        <name>WP003</name>
+    </wpt>
+    <wpt lat="22.290773680044" lon="70.778945958029">
+        <name>WP004</name>
+    </wpt>
+    <wpt lat="22.290878960089" lon="70.779127016058">
+        <name>WP005</name>
+    </wpt>
+    <wpt lat="22.290984240133" lon="70.779308074086">
+        <name>WP006</name>
+    </wpt>
+    <wpt lat="22.291089520177" lon="70.779489132115">
+        <name>WP007</name>
+    </wpt>
+    <wpt lat="22.291194800222" lon="70.779670190144">
+        <name>WP008</name>
+    </wpt>
+    <wpt lat="22.291300080266" lon="70.779851248173">
+        <name>WP009</name>
+    </wpt>
+    <wpt lat="22.29140536031" lon="70.780032306202">
+        <name>WP010</name>
+    </wpt>
+    <wpt lat="22.291510640354" lon="70.78021336423">
+        <name>WP011</name>
+    </wpt>
+    <wpt lat="22.291615920399" lon="70.780394422259">
+        <name>WP012</name>
+    </wpt>
+    <wpt lat="22.291721200443" lon="70.780575480288">
+        <name>WP013</name>
+    </wpt>
+    <wpt lat="22.291826480487" lon="70.780756538317">
+        <name>WP014</name>
+    </wpt>
+    <wpt lat="22.291931760532" lon="70.780937596346">
+        <name>WP015</name>
+    </wpt>
+    <wpt lat="22.292037040576" lon="70.781118654374">
+        <name>WP016</name>
+    </wpt>
+    <wpt lat="22.29214232062" lon="70.781299712403">
+        <name>WP017</name>
+    </wpt>
+    <wpt lat="22.292247600665" lon="70.781480770432">
+        <name>WP018</name>
+    </wpt>
+    <wpt lat="22.292352880709" lon="70.781661828461">
+        <name>WP019</name>
+    </wpt>
+    <wpt lat="22.292458160753" lon="70.78184288649">
+        <name>WP020</name>
+    </wpt>
+    <wpt lat="22.292563440798" lon="70.782023944518">
+        <name>WP021</name>
+    </wpt>
+    <wpt lat="22.292668720842" lon="70.782205002547">
+        <name>WP022</name>
+    </wpt>
+    <wpt lat="22.292774000886" lon="70.782386060576">
+        <name>WP023</name>
+    </wpt>
+    <wpt lat="22.292879280931" lon="70.782567118605">
+        <name>WP024</name>
+    </wpt>
+    <wpt lat="22.292984560975" lon="70.782748176634">
+        <name>WP025</name>
+    </wpt>
+    <wpt lat="22.293089841019" lon="70.782929234662">
+        <name>WP026</name>
+    </wpt>
+    <wpt lat="22.293195121063" lon="70.783110292691">
+        <name>WP027</name>
+    </wpt>
+    <wpt lat="22.293300401108" lon="70.78329135072">
+        <name>WP028</name>
+    </wpt>
+    <wpt lat="22.293405681152" lon="70.783472408749">
+        <name>WP029</name>
+    </wpt>
+    <wpt lat="22.293510961196" lon="70.783653466778">
+        <name>WP030</name>
+    </wpt>
+    <wpt lat="22.293616241241" lon="70.783834524806">
+        <name>WP031</name>
+    </wpt>
+    <wpt lat="22.293721521285" lon="70.784015582835">
+        <name>WP032</name>
+    </wpt>
+    <wpt lat="22.293826801329" lon="70.784196640864">
+        <name>WP033</name>
+    </wpt>
+    <wpt lat="22.293932081374" lon="70.784377698893">
+        <name>WP034</name>
+    </wpt>
+    <wpt lat="22.294037361418" lon="70.784558756921">
+        <name>WP035</name>
+    </wpt>
+    <wpt lat="22.294142641462" lon="70.78473981495">
+        <name>WP036</name>
+    </wpt>
+    <wpt lat="22.294247921507" lon="70.784920872979">
+        <name>WP037</name>
+    </wpt>
+    <wpt lat="22.294353201551" lon="70.785101931008">
+        <name>WP038</name>
+    </wpt>
+    <wpt lat="22.294458481595" lon="70.785282989037">
+        <name>WP039</name>
+    </wpt>
+    <wpt lat="22.2945328" lon="70.7854108">
+        <name>WP040</name>
+    </wpt>
+    <wpt lat="22.294374406325" lon="70.785538950249">
+        <name>WP041</name>
+    </wpt>
+    <wpt lat="22.294216012651" lon="70.785667100497">
+        <name>WP042</name>
+    </wpt>
+    <wpt lat="22.294057618976" lon="70.785795250746">
+        <name>WP043</name>
+    </wpt>
+    <wpt lat="22.293899225301" lon="70.785923400995">
+        <name>WP044</name>
+    </wpt>
+    <wpt lat="22.293740831627" lon="70.786051551243">
+        <name>WP045</name>
+    </wpt>
+    <wpt lat="22.293582437952" lon="70.786179701492">
+        <name>WP046</name>
+    </wpt>
+    <wpt lat="22.293424044277" lon="70.786307851741">
+        <name>WP047</name>
+    </wpt>
+    <wpt lat="22.293265650603" lon="70.786436001989">
+        <name>WP048</name>
+    </wpt>
+    <wpt lat="22.293107256928" lon="70.786564152238">
+        <name>WP049</name>
+    </wpt>
+    <wpt lat="22.292948863253" lon="70.786692302487">
+        <name>WP050</name>
+    </wpt>
+    <wpt lat="22.292790469579" lon="70.786820452735">
+        <name>WP051</name>
+    </wpt>
+    <wpt lat="22.292632075904" lon="70.786948602984">
+        <name>WP052</name>
+    </wpt>
+    <wpt lat="22.292473682229" lon="70.787076753233">
+        <name>WP053</name>
+    </wpt>
+    <wpt lat="22.292315288555" lon="70.787204903482">
+        <name>WP054</name>
+    </wpt>
+    <wpt lat="22.29215689488" lon="70.78733305373">
+        <name>WP055</name>
+    </wpt>
+    <wpt lat="22.291998501205" lon="70.787461203979">
+        <name>WP056</name>
+    </wpt>
+    <wpt lat="22.291840107531" lon="70.787589354228">
+        <name>WP057</name>
+    </wpt>
+    <wpt lat="22.291681713856" lon="70.787717504476">
+        <name>WP058</name>
+    </wpt>
+    <wpt lat="22.291523320181" lon="70.787845654725">
+        <name>WP059</name>
+    </wpt>
+    <wpt lat="22.291364926507" lon="70.787973804974">
+        <name>WP060</name>
+    </wpt>
+    <wpt lat="22.291206532832" lon="70.788101955222">
+        <name>WP061</name>
+    </wpt>
+    <wpt lat="22.291048139157" lon="70.788230105471">
+        <name>WP062</name>
+    </wpt>
+    <wpt lat="22.290889745483" lon="70.78835825572">
+        <name>WP063</name>
+    </wpt>
+    <wpt lat="22.290731351808" lon="70.788486405968">
+        <name>WP064</name>
+    </wpt>
+    <wpt lat="22.290572958133" lon="70.788614556217">
+        <name>WP065</name>
+    </wpt>
+    <wpt lat="22.290414564459" lon="70.788742706466">
+        <name>WP066</name>
+    </wpt>
+    <wpt lat="22.290256170784" lon="70.788870856714">
+        <name>WP067</name>
+    </wpt>
+    <wpt lat="22.290097777109" lon="70.788999006963">
+        <name>WP068</name>
+    </wpt>
+    <wpt lat="22.289939383435" lon="70.789127157212">
+        <name>WP069</name>
+    </wpt>
+    <wpt lat="22.28978098976" lon="70.78925530746">
+        <name>WP070</name>
+    </wpt>
+    <wpt lat="22.289622596085" lon="70.789383457709">
+        <name>WP071</name>
+    </wpt>
+    <wpt lat="22.289464202411" lon="70.789511607958">
+        <name>WP072</name>
+    </wpt>
+    <wpt lat="22.289305808736" lon="70.789639758206">
+        <name>WP073</name>
+    </wpt>
+    <wpt lat="22.289147415061" lon="70.789767908455">
+        <name>WP074</name>
+    </wpt>
+    <wpt lat="22.288989021387" lon="70.789896058704">
+        <name>WP075</name>
+    </wpt>
+    <wpt lat="22.288830627712" lon="70.790024208952">
+        <name>WP076</name>
+    </wpt>
+    <wpt lat="22.288672234038" lon="70.790152359201">
+        <name>WP077</name>
+    </wpt>
+    <wpt lat="22.288513840363" lon="70.79028050945">
+        <name>WP078</name>
+    </wpt>
+    <wpt lat="22.288355446688" lon="70.790408659699">
+        <name>WP079</name>
+    </wpt>
+    <wpt lat="22.288197053014" lon="70.790536809947">
+        <name>WP080</name>
+    </wpt>
+    <wpt lat="22.288038659339" lon="70.790664960196">
+        <name>WP081</name>
+    </wpt>
+    <wpt lat="22.287880265664" lon="70.790793110445">
+        <name>WP082</name>
+    </wpt>
+    <wpt lat="22.28772187199" lon="70.790921260693">
+        <name>WP083</name>
+    </wpt>
+    <wpt lat="22.287563478315" lon="70.791049410942">
+        <name>WP084</name>
+    </wpt>
+    <wpt lat="22.28740508464" lon="70.791177561191">
+        <name>WP085</name>
+    </wpt>
+    <wpt lat="22.287246690966" lon="70.791305711439">
+        <name>WP086</name>
+    </wpt>
+    <wpt lat="22.287088297291" lon="70.791433861688">
+        <name>WP087</name>
+    </wpt>
+    <wpt lat="22.286929903616" lon="70.791562011937">
+        <name>WP088</name>
+    </wpt>
+    <wpt lat="22.286771509942" lon="70.791690162185">
+        <name>WP089</name>
+    </wpt>
+    <wpt lat="22.286613116267" lon="70.791818312434">
+        <name>WP090</name>
+    </wpt>
+    <wpt lat="22.286454722592" lon="70.791946462683">
+        <name>WP091</name>
+    </wpt>
+    <wpt lat="22.286296328918" lon="70.792074612931">
+        <name>WP092</name>
+    </wpt>
+    <wpt lat="22.286137935243" lon="70.79220276318">
+        <name>WP093</name>
+    </wpt>
+    <wpt lat="22.285979541568" lon="70.792330913429">
+        <name>WP094</name>
+    </wpt>
+    <wpt lat="22.285821147894" lon="70.792459063677">
+        <name>WP095</name>
+    </wpt>
+    <wpt lat="22.285662754219" lon="70.792587213926">
+        <name>WP096</name>
+    </wpt>
+    <wpt lat="22.285504360544" lon="70.792715364175">
+        <name>WP097</name>
+    </wpt>
+    <wpt lat="22.28534596687" lon="70.792843514423">
+        <name>WP098</name>
+    </wpt>
+    <wpt lat="22.285187573195" lon="70.792971664672">
+        <name>WP099</name>
+    </wpt>
+    <wpt lat="22.28502917952" lon="70.793099814921">
+        <name>WP100</name>
+    </wpt>
+    <wpt lat="22.284870785846" lon="70.79322796517">
+        <name>WP101</name>
+    </wpt>
+    <wpt lat="22.284712392171" lon="70.793356115418">
+        <name>WP102</name>
+    </wpt>
+    <wpt lat="22.284553998496" lon="70.793484265667">
+        <name>WP103</name>
+    </wpt>
+    <wpt lat="22.284395604822" lon="70.793612415916">
+        <name>WP104</name>
+    </wpt>
+    <wpt lat="22.284237211147" lon="70.793740566164">
+        <name>WP105</name>
+    </wpt>
+    <wpt lat="22.284078817472" lon="70.793868716413">
+        <name>WP106</name>
+    </wpt>
+    <wpt lat="22.283920423798" lon="70.793996866662">
+        <name>WP107</name>
+    </wpt>
+    <wpt lat="22.283762030123" lon="70.79412501691">
+        <name>WP108</name>
+    </wpt>
+    <wpt lat="22.283603636448" lon="70.794253167159">
+        <name>WP109</name>
+    </wpt>
+    <wpt lat="22.283445242774" lon="70.794381317408">
+        <name>WP110</name>
+    </wpt>
+    <wpt lat="22.283286849099" lon="70.794509467656">
+        <name>WP111</name>
+    </wpt>
+    <wpt lat="22.283128455424" lon="70.794637617905">
+        <name>WP112</name>
+    </wpt>
+    <wpt lat="22.28297006175" lon="70.794765768154">
+        <name>WP113</name>
+    </wpt>
+    <wpt lat="22.2829102" lon="70.7948142">
+        <name>WP114</name>
+    </wpt>
+    <wpt lat="22.282878094674" lon="70.795025194091">
+        <name>WP115</name>
+    </wpt>
+    <wpt lat="22.282845989349" lon="70.795236188181">
+        <name>WP116</name>
+    </wpt>
+    <wpt lat="22.282813884023" lon="70.795447182272">
+        <name>WP117</name>
+    </wpt>
+    <wpt lat="22.282781778697" lon="70.795658176363">
+        <name>WP118</name>
+    </wpt>
+    <wpt lat="22.282749673372" lon="70.795869170454">
+        <name>WP119</name>
+    </wpt>
+    <wpt lat="22.282717568046" lon="70.796080164544">
+        <name>WP120</name>
+    </wpt>
+    <wpt lat="22.28268546272" lon="70.796291158635">
+        <name>WP121</name>
+    </wpt>
+    <wpt lat="22.282653357395" lon="70.796502152726">
+        <name>WP122</name>
+    </wpt>
+    <wpt lat="22.282621252069" lon="70.796713146817">
+        <name>WP123</name>
+    </wpt>
+    <wpt lat="22.282589146743" lon="70.796924140907">
+        <name>WP124</name>
+    </wpt>
+    <wpt lat="22.282557041418" lon="70.797135134998">
+        <name>WP125</name>
+    </wpt>
+    <wpt lat="22.282524936092" lon="70.797346129089">
+        <name>WP126</name>
+    </wpt>
+    <wpt lat="22.282492830767" lon="70.79755712318">
+        <name>WP127</name>
+    </wpt>
+    <wpt lat="22.282460725441" lon="70.79776811727">
+        <name>WP128</name>
+    </wpt>
+    <wpt lat="22.282428620115" lon="70.797979111361">
+        <name>WP129</name>
+    </wpt>
+    <wpt lat="22.28239651479" lon="70.798190105452">
+        <name>WP130</name>
+    </wpt>
+    <wpt lat="22.282364409464" lon="70.798401099543">
+        <name>WP131</name>
+    </wpt>
+    <wpt lat="22.282332304138" lon="70.798612093633">
+        <name>WP132</name>
+    </wpt>
+    <wpt lat="22.282300198813" lon="70.798823087724">
+        <name>WP133</name>
+    </wpt>
+    <wpt lat="22.282268093487" lon="70.799034081815">
+        <name>WP134</name>
+    </wpt>
+    <wpt lat="22.282235988161" lon="70.799245075906">
+        <name>WP135</name>
+    </wpt>
+    <wpt lat="22.282204" lon="70.7994553">
+        <name>WP136</name>
+    </wpt>
+    <wpt lat="22.282006826328" lon="70.79943750208">
+        <name>WP137</name>
+    </wpt>
+    <wpt lat="22.281809652655" lon="70.79941970416">
+        <name>WP138</name>
+    </wpt>
+    <wpt lat="22.281612478983" lon="70.79940190624">
+        <name>WP139</name>
+    </wpt>
+    <wpt lat="22.281415305311" lon="70.79938410832">
+        <name>WP140</name>
+    </wpt>
+    <wpt lat="22.281218131639" lon="70.7993663104">
+        <name>WP141</name>
+    </wpt>
+    <wpt lat="22.281020957966" lon="70.79934851248">
+        <name>WP142</name>
+    </wpt>
+    <wpt lat="22.280823784294" lon="70.79933071456">
+        <name>WP143</name>
+    </wpt>
+    <wpt lat="22.280626610622" lon="70.79931291664">
+        <name>WP144</name>
+    </wpt>
+    <wpt lat="22.280429436949" lon="70.79929511872">
+        <name>WP145</name>
+    </wpt>
+    <wpt lat="22.280232263277" lon="70.7992773208">
+        <name>WP146</name>
+    </wpt>
+    <wpt lat="22.280035089605" lon="70.79925952288">
+        <name>WP147</name>
+    </wpt>
+    <wpt lat="22.279837915933" lon="70.79924172496">
+        <name>WP148</name>
+    </wpt>
+    <wpt lat="22.2797756" lon="70.7992361">
+        <name>WP149</name>
+    </wpt>
+</gpx>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="ClanPro_News.otf">
+            <string>ClanPro-News</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="100" id="Sek-ou-Dkf" userLabel="VehicleCell" customClass="VehicleDetailCell" customModule="EberDriver" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Sek-ou-Dkf" id="xd0-bN-ezB">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="asset-service-type" translatesAutoresizingMaskIntoConstraints="NO" id="lbd-oC-nOj">
+                        <rect key="frame" x="10" y="10" width="80" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="P4l-b8-xXr"/>
+                            <constraint firstAttribute="width" secondItem="lbd-oC-nOj" secondAttribute="height" multiplier="1:1" id="ex0-41-EVz"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HEd-mI-5qH" userLabel="ViewForDetail">
+                        <rect key="frame" x="100" y="10" width="150" height="80"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="LJo-Gd-RqD">
+                                <rect key="frame" x="10" y="5.5" width="150" height="69.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rwt-9Z-Ffv">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="16.5"/>
+                                        <fontDescription key="fontDescription" name="ClanPro-News" family="Clan Pro" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mH6-T0-ZTk">
+                                        <rect key="frame" x="0.0" y="26.5" width="150" height="16.5"/>
+                                        <fontDescription key="fontDescription" name="ClanPro-News" family="Clan Pro" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UTI-cU-8Ku">
+                                        <rect key="frame" x="0.0" y="53" width="150" height="16.5"/>
+                                        <fontDescription key="fontDescription" name="ClanPro-News" family="Clan Pro" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="LJo-Gd-RqD" firstAttribute="leading" secondItem="HEd-mI-5qH" secondAttribute="leading" constant="10" id="gux-AA-d1B"/>
+                            <constraint firstItem="LJo-Gd-RqD" firstAttribute="centerY" secondItem="HEd-mI-5qH" secondAttribute="centerY" id="mr0-ja-nFD"/>
+                            <constraint firstItem="LJo-Gd-RqD" firstAttribute="width" secondItem="HEd-mI-5qH" secondAttribute="width" id="zVa-hi-akQ"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="255" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="REs-lj-3aS">
+                        <rect key="frame" x="260" y="25" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="REs-lj-3aS" secondAttribute="height" multiplier="1:1" id="2ZI-yZ-QjG"/>
+                            <constraint firstAttribute="height" constant="50" id="IYp-NR-vLi"/>
+                        </constraints>
+                        <state key="normal" image="asset-radio-normal"/>
+                        <state key="selected" image="asset-radio-selected"/>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="asset-warning" translatesAutoresizingMaskIntoConstraints="NO" id="9NU-f3-H2p">
+                        <rect key="frame" x="10" y="10" width="8" height="8"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="HEd-mI-5qH" firstAttribute="height" secondItem="lbd-oC-nOj" secondAttribute="height" id="IW2-ho-Hce"/>
+                    <constraint firstItem="HEd-mI-5qH" firstAttribute="centerY" secondItem="xd0-bN-ezB" secondAttribute="centerY" id="Owf-eW-Rfz"/>
+                    <constraint firstItem="lbd-oC-nOj" firstAttribute="centerY" secondItem="xd0-bN-ezB" secondAttribute="centerY" id="Tk6-yd-i8H"/>
+                    <constraint firstAttribute="bottom" secondItem="lbd-oC-nOj" secondAttribute="bottom" constant="10" id="TuQ-vU-WLc"/>
+                    <constraint firstItem="9NU-f3-H2p" firstAttribute="top" secondItem="lbd-oC-nOj" secondAttribute="top" id="WLg-80-cxa"/>
+                    <constraint firstItem="HEd-mI-5qH" firstAttribute="leading" secondItem="lbd-oC-nOj" secondAttribute="trailing" constant="10" id="WOP-q8-e6l"/>
+                    <constraint firstAttribute="trailing" secondItem="REs-lj-3aS" secondAttribute="trailing" constant="10" id="j6S-Ge-GhW"/>
+                    <constraint firstItem="HEd-mI-5qH" firstAttribute="centerY" secondItem="lbd-oC-nOj" secondAttribute="centerY" id="ml7-xH-BWV"/>
+                    <constraint firstItem="9NU-f3-H2p" firstAttribute="leading" secondItem="lbd-oC-nOj" secondAttribute="leading" id="nN5-lO-8Uw"/>
+                    <constraint firstItem="REs-lj-3aS" firstAttribute="centerY" secondItem="xd0-bN-ezB" secondAttribute="centerY" id="nOG-DR-CjT"/>
+                    <constraint firstItem="HEd-mI-5qH" firstAttribute="trailing" secondItem="REs-lj-3aS" secondAttribute="leading" constant="-10" id="pqS-e3-Y9V"/>
+                    <constraint firstItem="lbd-oC-nOj" firstAttribute="leading" secondItem="xd0-bN-ezB" secondAttribute="leading" constant="10" id="zwM-JZ-VdH"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="btnSelected" destination="REs-lj-3aS" id="nUk-JX-5i4"/>
+                <outlet property="imgError" destination="9NU-f3-H2p" id="zLi-xH-xET"/>
+                <outlet property="imgVehicle" destination="lbd-oC-nOj" id="7zK-U3-KpW"/>
+                <outlet property="lblVehicleName" destination="rwt-9Z-Ffv" id="O2L-5G-hyb"/>
+                <outlet property="lblVehiclePlateNumber" destination="mH6-T0-ZTk" id="t8Y-7V-iFT"/>
+                <outlet property="lblVehicleWarning" destination="UTI-cU-8Ku" id="mN0-0f-v7s"/>
+            </connections>
+            <point key="canvasLocation" x="21" y="-11"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="asset-radio-normal" width="23" height="23"/>
+        <image name="asset-radio-selected" width="23" height="23"/>
+        <image name="asset-service-type" width="79" height="33"/>
+        <image name="asset-warning" width="8" height="8"/>
+    </resources>
+</document>
