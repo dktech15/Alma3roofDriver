@@ -18,6 +18,7 @@ import FirebaseCrashlytics
 import Firebase
 import FBSDKLoginKit
 import Alamofire
+import Sentry
  
 extension UIViewController {
     public func removeFromParentAndNCObserver() {
@@ -79,6 +80,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             is_app_in_review = true
         }
         
+        SentrySDK.start { options in
+                    options.dsn = "  https://2d5965bcfed1651d5d0ffbe1082e4aa3@o4509287234273280.ingest.de.sentry.io/6473368647"
+                    options.debug = true // Useful for development
+                    options.tracesSampleRate = 1.0 // 100% performance tracing (adjust in prod)
+                }
         return true
     }
     func BiometricAuthentication(){

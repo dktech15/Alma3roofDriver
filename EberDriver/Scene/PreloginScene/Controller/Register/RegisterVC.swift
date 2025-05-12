@@ -10,6 +10,7 @@ import UIKit
 import FBSDKLoginKit
 import GoogleSignIn
 import AuthenticationServices
+import Sentry
 
 class RegisterVC: BaseVC, OtpDelegate {
     
@@ -668,6 +669,7 @@ extension RegisterVC {
             alamoFire.getResponseFromURL(url: WebService.REGISTER, paramData: dictParam, image: imgProfilePic.image!) {(response, data, error) -> (Void) in
                 Utility.hideLoading()
                 if Parser.parseProviderData(response: response, data: data) {
+                    SentrySDK.setUser(Sentry.User(userId: ProviderSingleton.shared.provider.providerId))
                     if !(ProviderSingleton.shared.provider.isReferral == TRUE) && ProviderSingleton.shared.provider.countryDetail.isReferral {
                         Utility.hideLoading()
                         self.performSegue(withIdentifier: SEGUE.REGISTER_TO_REFERRAL, sender: self)
@@ -685,6 +687,7 @@ extension RegisterVC {
             alamoFire.getResponseFromURL(url: WebService.REGISTER, methodName: AlamofireHelper.POST_METHOD, paramData: dictParam) {(response, data, error) -> (Void) in
                 Utility.hideLoading()
                 if Parser.parseProviderData(response: response, data: data) {
+                    SentrySDK.setUser(Sentry.User(userId: ProviderSingleton.shared.provider.providerId))
                     if !(ProviderSingleton.shared.provider.isReferral == TRUE) && ProviderSingleton.shared.provider.countryDetail.isReferral {
                         Utility.hideLoading()
                         self.performSegue(withIdentifier: SEGUE.REGISTER_TO_REFERRAL, sender: self)
