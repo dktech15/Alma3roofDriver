@@ -282,9 +282,6 @@
 		E3C04155275893790027E548 /* Eber Driver App Installation.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E3C04153275893790027E548 /* Eber Driver App Installation.pdf */; };
 		E3C04156275893790027E548 /* Eber Driver App Diagram.drawio.svg in Resources */ = {isa = PBXBuildFile; fileRef = E3C04154275893790027E548 /* Eber Driver App Diagram.drawio.svg */; };
 		E3FFBDDF2742A40600E0C0DE /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E3FFBDDE2742A40600E0C0DE /* .gitignore */; };
-		E82219B22DD24AD000BAD571 /* Sentry in Frameworks */ = {isa = PBXBuildFile; productRef = E82219B12DD24AD000BAD571 /* Sentry */; };
-		E82219B42DD24AD000BAD571 /* Sentry-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = E82219B32DD24AD000BAD571 /* Sentry-Dynamic */; };
-		E82219B62DD24AD000BAD571 /* SentrySwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = E82219B52DD24AD000BAD571 /* SentrySwiftUI */; };
 		F94C191F2A972BAE0002E067 /* HubMapListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94C191E2A972BAE0002E067 /* HubMapListVC.swift */; };
 		F94C19222A976D4B0002E067 /* NoHubListPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94C19212A976D4B0002E067 /* NoHubListPopup.swift */; };
 		F94C19242A976D550002E067 /* NoHubListPopup.xib in Resources */ = {isa = PBXBuildFile; fileRef = F94C19232A976D550002E067 /* NoHubListPopup.xib */; };
@@ -683,10 +680,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E82219B42DD24AD000BAD571 /* Sentry-Dynamic in Frameworks */,
-				E82219B62DD24AD000BAD571 /* SentrySwiftUI in Frameworks */,
 				0CE57B97058704F0E5B60647 /* Pods_ALMA3ROOF_DRIVER.framework in Frameworks */,
-				E82219B22DD24AD000BAD571 /* Sentry in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2263,8 +2257,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2FC7A7921CDF15200992957 /* Build configuration list for PBXNativeTarget "ALMA3ROOF DRIVER" */;
 			buildPhases = (
-				CA8C2B7C59B11778362F5E42 /* Build Target Dependencies */,
 				6A9D8628EAB436BCF4DA7ECE /* [CP] Check Pods Manifest.lock */,
+				CA8C2B7C59B11778362F5E42 /* Build Target Dependencies */,
 				2E75BEF67E8BD662CD6D904C /* Compile Swift Frameworks */,
 				C2FC7A6021CDF15100992957 /* Sources */,
 				C2FC7A6121CDF15100992957 /* Frameworks */,
@@ -2320,9 +2314,6 @@
 				de,
 			);
 			mainGroup = C2FC7A5B21CDF15100992957;
-			packageReferences = (
-				E82219B02DD24AD000BAD571 /* XCRemoteSwiftPackageReference "sentry-cocoa" */,
-			);
 			productRefGroup = C2FC7A6521CDF15100992957 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -2985,35 +2976,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		E82219B02DD24AD000BAD571 /* XCRemoteSwiftPackageReference "sentry-cocoa" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/getsentry/sentry-cocoa";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 8.50.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		E82219B12DD24AD000BAD571 /* Sentry */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E82219B02DD24AD000BAD571 /* XCRemoteSwiftPackageReference "sentry-cocoa" */;
-			productName = Sentry;
-		};
-		E82219B32DD24AD000BAD571 /* Sentry-Dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E82219B02DD24AD000BAD571 /* XCRemoteSwiftPackageReference "sentry-cocoa" */;
-			productName = "Sentry-Dynamic";
-		};
-		E82219B52DD24AD000BAD571 /* SentrySwiftUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E82219B02DD24AD000BAD571 /* XCRemoteSwiftPackageReference "sentry-cocoa" */;
-			productName = SentrySwiftUI;
-		};
-/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		C2FC7A6E21CDF15100992957 /* EberDriver.xcdatamodeld */ = {

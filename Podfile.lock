@@ -199,6 +199,9 @@ PODS:
   - SDWebImage (5.18.3):
     - SDWebImage/Core (= 5.18.3)
   - SDWebImage/Core (5.18.3)
+  - Sentry (8.50.1):
+    - Sentry/Core (= 8.50.1)
+  - Sentry/Core (8.50.1)
   - Socket.IO-Client-Swift (16.1.0):
     - Starscream (~> 4.0.6)
   - Starscream (4.0.6)
@@ -237,6 +240,7 @@ DEPENDENCIES:
   - libPhoneNumber-iOS
   - PayPalCheckout
   - SDWebImage
+  - Sentry
   - Socket.IO-Client-Swift
   - Stripe (~> 22.8.2)
 
@@ -282,6 +286,7 @@ SPEC REPOS:
     - PromisesSwift
     - RecaptchaInterop
     - SDWebImage
+    - Sentry
     - Socket.IO-Client-Swift
     - Starscream
     - Stripe
@@ -331,6 +336,7 @@ SPEC CHECKSUMS:
   PromisesSwift: 28dca69a9c40779916ac2d6985a0192a5cb4a265
   RecaptchaInterop: 7d1a4a01a6b2cb1610a47ef3f85f0c411434cb21
   SDWebImage: 96e0c18ef14010b7485210e92fac888587ebb958
+  Sentry: a6dd4a025b90f2caea04bfe10b2fe160a193072d
   Socket.IO-Client-Swift: ee4b8f80a3db18dd7f32b266ddf273310609443c
   Starscream: fb2c4510bebf908c62bd383bcf05e673720e91fd
   Stripe: 59f6659e8ea413def19c97c57e23f5ec6ea48cf8
@@ -339,6 +345,6 @@ SPEC CHECKSUMS:
   StripeUICore: 6a5bbea0164d63bd91000f001903e7901859e1a4
   SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
 
-PODFILE CHECKSUM: a3aa58ab1e801cbdaa10c88cfa7e1f087f61fe1e
+PODFILE CHECKSUM: 3cb072503b761258e5b5bc3a07e06f84000c7181
 
 COCOAPODS: 1.16.2

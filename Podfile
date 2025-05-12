@@ -31,6 +31,7 @@ pod 'SDWebImage'
 pod 'Socket.IO-Client-Swift'
 pod 'Stripe','~> 22.8.2'
 pod 'PayPalCheckout'
+pod 'Sentry'
 
 end
 # Disable signing for pods
